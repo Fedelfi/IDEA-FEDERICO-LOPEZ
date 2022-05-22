@@ -93,6 +93,12 @@ li:hover {
     background-color: lightskyblue;
 }
 
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .desplegable:hover .menu {
     display: block;
@@ -339,8 +345,7 @@ section div h3 {
     .footer div p {
         justify-content: center;
         align-items: center;
-        font-size: 10px;
-        margin-top: 8px;
+        font-size: 11px;
     }
 
     .footer div a {
@@ -441,8 +446,8 @@ footer div .youtube:hover i {
 }
 
 .casillero {
-    width: 25rem;
-    height: 2rem;
+    width: 450px;
+    height: 40px;
     margin-top: 15px;
     border-radius: 15px;
     padding-left: 5px;
@@ -451,18 +456,27 @@ footer div .youtube:hover i {
 }
 
 .comentario {
-    width: 25rem;
-    height: 10rem;
+    width: 450px;
+    height: 150px;
     margin-top: 15px;
     border-radius: 10px;
     padding-left: 5px;
     padding-top: 10px;
 }
 
+.botones {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: center;
+    gap: 20px;
+}
+
 .boton {
     display: inline-block;
     padding: 15px 25px;
     font-size: 15px;
+    justify-content: center;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
