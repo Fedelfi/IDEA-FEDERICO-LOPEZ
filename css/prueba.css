@@ -95,7 +95,6 @@ li:hover {
 
 .formulario {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -110,6 +109,7 @@ li:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 40px;
 }
 
 
@@ -187,6 +187,10 @@ section div h3 {
     width: 100%;
 }
 
+.map {
+    flex-direction: column;
+}
+
 @media (min-width: 769px) and (max-width: 1024px) {
 
     .parraIndex {
@@ -232,7 +236,7 @@ section div h3 {
         font-size: 80px;
     }
 
-    /* mediaq footer */
+    /* media footer */
     .footer div a {
         justify-content: center;
         align-items: center;
@@ -255,6 +259,11 @@ section div h3 {
 
 
 @media (min-width: 300px) and (max-width: 768px) {
+
+    .form-floating {
+        padding: 10px;
+    }
+
 
     .parraIndex {
         display: grid;

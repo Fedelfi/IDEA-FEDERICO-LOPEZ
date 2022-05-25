@@ -25,12 +25,6 @@
                         <li>
                             <a href="./logistica.html">Logistica</a>
                         </li>
-                        <li>
-                            <a href="./postal.html">Postal</a>
-                        </li>
-                        <li>
-                            <a href="./bancarios.html">Bancarios</a>
-                        </li>
                     </ul>
                 </li>
                 <li>
@@ -63,25 +57,28 @@
             <h4>Formulario de mensaje</h4>
         </div>
         <div class="formulario">
-            <form class="container">
-                <label for="nombre"></label>
-                <input class="casillero" type="text" name="nombre" placeholder="Nombre"><br />
-
-                <label for="apellido"></label>
-                <input class="casillero" type="text" name="apellido" placeholder="Apellido"><br />
-
-                <label for="email"></label>
-                <input class="casillero" name="email" type="email" id="email" value="" class="required email"
-                    title="Debe completar el email." placeholder="Correo electronico"><br />
-
-                <label for="apellido"></label>
-                <input class="casillero" type="text" name="localidad" placeholder="Localidad"><br />
-
-                <label for="apellido"></label>
-                <input class="casillero" type="text" name="provincia" placeholder="Provincia"><br />
-
-                <textarea class="comentario" name="Comentarios" id="Mensaje" placeholder="Escribi tu mensaje" cols="30"
-                    rows="10"></textarea><br />
+            <form>
+                <div class="form-floating mt-3">
+                    <input type="nombre" class="form-control" id="floatingInput" placeholder="Nombre">
+                    <label class="label" for="floatingInput">Nombre</label>
+                </div>
+                <div class="form-floating mt-3">
+                    <input type="apellido" class="form-control" id="floatingInput" placeholder="Apellido">
+                    <label class="label" for="floatingInput">Apellido</label>
+                </div>
+                <div class="form-floating mt-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"
+                        required="email">
+                    <label class="label" for="floatingInput">Correo Electronico</label>
+                </div>
+                <div class="form-floating mt-3">
+                    <input type="localidad" class="form-control" id="floatingInput" placeholder="Localidad">
+                    <label class="label" for="floatingInput">Localidad</label>
+                </div>
+                <div class="form-floating mt-3">
+                    <input type="provincia" class="form-control" id="floatingInput" placeholder="Provincia">
+                    <label class="label" for="floatingInput">Provincia</label>
+                </div>
                 <div class="botones">
                     <input class="boton" type="submit" name="Enviar" value="Enviar fomulario">
                     <input class="boton" type="reset" value="Limpiar formulario" />
