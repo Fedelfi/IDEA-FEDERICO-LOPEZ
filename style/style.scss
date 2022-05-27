@@ -1,0 +1,507 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url(https://www.solofondos.com/wp-content/uploads/2015/11/new-fondo1lateral.jpg);
+    flex-direction: column;
+    width: 100%;
+}
+
+/* MAIN */
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+}
+
+.carrousel {
+    display: flex;
+    padding-top: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* HEADER */
+.header {
+    margin-bottom: 30px;
+    height: 100%;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 100px;
+    background-image: url(https://www.solofondos.com/wp-content/uploads/2015/11/50-regalos-de-la-internet-para-dise%C3%B1adores9-1.jpg);
+}
+
+header h2 {
+    text-align: center;
+    font-size: 40px;
+    background-image: url(https://www.solofondos.com/wp-content/uploads/2015/11/50-regalos-de-la-internet-para-dise%C3%B1adores9-1.jpg);
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(https://www.solofondos.com/wp-content/uploads/2015/11/50-regalos-de-la-internet-para-dise%C3%B1adores9-1.jpg);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    padding: 10px;
+}
+
+
+li:hover {
+    background-color: lightskyblue;
+    border-radius: 10px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    display: none;
+}
+
+.menu li {
+    text-align: center;
+    align-items: center;
+}
+
+.menu li:hover {
+    background-color: lightskyblue;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desplegable:hover .menu {
+    display: block;
+    justify-content: center;
+}
+
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+
+section {
+    display: flex;
+}
+
+section div h3 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.titulo {
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.column {
+    display: flex;
+    gap: 5%;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+
+.column p {
+    padding: 10px 0px;
+    line-height: 28px;
+    text-align: justify;
+}
+
+
+.parra div p {
+    text-align: justify;
+    line-height: 28px;
+    padding: 1rem 1rem;
+    color: white;
+}
+
+.parraIndex div p {
+    text-align: justify;
+    line-height: 28px;
+    padding: 1rem 1rem;
+    color: white;
+}
+
+.parraIndex div img {
+    padding: 1rem 2rem;
+    border-radius: 20%;
+}
+
+.parra div img {
+    padding: 1rem 2rem;
+    border-radius: 20%;
+    justify-content: center;
+    align-content: center;
+}
+
+.parra {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    color: white;
+    width: 100%;
+}
+
+.parraIndex {
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    gap: 20px;
+    color: white;
+    width: 100%;
+}
+
+.map {
+    flex-direction: column;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .parraIndex {
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        gap: 20px;
+        color: white;
+        width: 100%;
+    }
+
+    .parra {
+        display: grid;
+        grid-template-columns: 6fr 6fr;
+        color: white;
+        width: 100%;
+    }
+
+    .map {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .map div img {
+        height: 550px;
+        width: 450px;
+    }
+
+    .header nav ul {
+        flex-direction: row;
+        gap: 20px;
+        justify-content: space-around;
+    }
+
+    .header nav ul li {
+        padding: 20px;
+    }
+
+    .header div h2 {
+        font-size: 20px;
+    }
+
+    .header div h1 {
+        font-size: 80px;
+    }
+
+    /* media footer */
+    .footer div a {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer div p {
+        justify-content: center;
+        align-items: center;
+        font-size: 11px;
+    }
+}
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+@media (min-width: 300px) and (max-width: 768px) {
+
+    .form-floating {
+        padding: 12px;
+        margin: 10px;
+    }
+
+
+    .parraIndex {
+        display: grid;
+        grid-template-columns: 12fr;
+        gap: 20px;
+        color: white;
+        width: 100%;
+    }
+
+    .parra {
+        display: grid;
+        grid-template-columns: 12fr;
+        color: white;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .map {
+        flex-direction: column;
+    }
+
+    .map div img {
+        height: 500px;
+        width: 300px;
+        padding-top: 20px;
+    }
+
+    .map div h3 {
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        gap: 50px;
+    }
+
+    .empre div h3 {
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        gap: 50px;
+    }
+
+    .contac div h3 {
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+    }
+
+    .contac div h4 {
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+
+    }
+
+    .parraIndex div img {
+        display: block;
+        margin: auto;
+        height: 180px;
+    }
+
+    .header nav ul {
+        flex-direction: row;
+        gap: 15px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .header nav ul li a {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .header div h1 {
+        font-size: 35px;
+        height: 40px;
+    }
+
+    .header div h2 {
+        font-size: 20px;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer div p {
+        justify-content: center;
+        align-items: center;
+        font-size: 11px;
+    }
+
+    .footer div a {
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+
+
+/* FOOTER SECTION */
+footer {
+    display: flex;
+    background-color: rgb(111, 144, 236);
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40%;
+    background-image: url(https://www.solofondos.com/wp-content/uploads/2015/11/50-regalos-de-la-internet-para-dise%C3%B1adores9-1.jpg);
+    padding: 40px;
+    width: 100%;
+
+    div {
+
+        &:hover {
+            filter: blur(2px);
+        }
+
+        a {
+            margin: 0px 5px;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+
+            &:hover {
+                transform: translateY(-3px) scale(1.05);
+                box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4);
+                filter: none;
+            }
+
+
+            i {
+                padding: 12px 12px;
+                background: #333;
+                color: #fff;
+                font-size: 18px;
+                box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2);
+                transition: .2s;
+
+                p {
+                    text-decoration-style: solid;
+                    text-transform: uppercase;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                }
+            }
+        }
+    }
+}
+
+
+footer div .facebook:hover i {
+    background: var(--facebook);
+}
+
+footer div .instagram:hover i {
+    background: var(--instagram);
+}
+
+footer div .twitter:hover i {
+    background: var(--twitter);
+}
+
+footer div .youtube:hover i {
+    background: var(--youtube);
+}
+
+:root {
+    --facebook: #3b5999;
+    --instagram: #e4405f;
+    --twitter: #55acee;
+    --youtube: #bd081c;
+}
+
+.contacto {
+    color: white;
+    font-size: 50px;
+}
+
+.form {
+    color: white;
+    font-size: 20px;
+}
+
+.titulos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+
+.casillero {
+    width: 450px;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 15px;
+    padding-left: 5px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.comentario {
+    width: 450px;
+    height: 150px;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 15px;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.boton:hover {
+    background-color: black;
+    color: white;
+}
