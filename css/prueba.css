@@ -39,6 +39,7 @@ header h2 {
   align-items: center;
   background-image: url(https://www.solofondos.com/wp-content/uploads/2015/11/50-regalos-de-la-internet-para-dise%C3%B1adores9-1.jpg); }
 
+/* BARRA NAVEGADORA*/
 nav ul {
   display: flex;
   list-style: none;
@@ -46,22 +47,15 @@ nav ul {
   justify-content: space-around;
   margin: 0;
   padding: 0; }
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 25px;
-  display: block;
-  padding: 10px; }
-
-li:hover {
-  background-color: lightskyblue;
-  border-radius: 10px; }
-
-.video {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    padding: 10px; }
+  nav ul li:hover {
+    background-color: lightskyblue;
+    border-radius: 10px; }
 
 .menu {
   position: absolute;
@@ -219,11 +213,6 @@ section div h3 {
     width: 300px;
     padding-top: 20px; }
   .map div h3 {
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    gap: 50px; }
-  .empre div h3 {
     justify-content: center;
     align-items: center;
     font-size: 30px;
