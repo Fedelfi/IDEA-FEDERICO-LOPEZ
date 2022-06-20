@@ -324,7 +324,7 @@ section div h3 {
     align-items: center;
   }
 
-  .footer div p {
+  .footer div h3 {
     justify-content: center;
     align-items: center;
     font-size: 11px;
