@@ -263,6 +263,20 @@ section div h3 {
     margin: 10px;
   }
 
+  .parra div iframe {
+    padding: 1rem 2rem;
+    border-radius: 20%;
+    justify-content: center;
+    align-content: center;
+    width: 85%;
+  }
+
+  .parra div p {
+    padding: 1rem 4rem;
+    justify-content: center;
+    align-content: center;
+  }
+
   .parraIndex {
     display: grid;
     grid-template-columns: 12fr;
@@ -366,7 +380,7 @@ footer {
   width: 100%;
 }
 
-footer div:hover {
+footer div a:hover {
   filter: blur(2px);
 }
 
@@ -381,6 +395,10 @@ footer div a:hover {
   transform: translateY(-3px) scale(1.05);
   box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
   filter: none;
+}
+
+footer div h3 {
+  font-size: 25px;
 }
 
 footer div a i {
