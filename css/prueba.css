@@ -184,7 +184,7 @@ section div h3 {
 
 .parraIndex {
   display: grid;
-  grid-template-columns: 3fr 3fr 3fr 3fr;
+  grid-template-columns: 6fr 6fr;
   gap: 10px;
   color: white;
   width: 100%;
@@ -235,7 +235,7 @@ section div h3 {
   }
 
   .header div h1 {
-    font-size: 50px;
+    font-size: 45px;
   }
 
   /* media footer */
