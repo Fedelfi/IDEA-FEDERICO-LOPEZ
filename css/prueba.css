@@ -6,6 +6,10 @@ body {
   width: 100%;
 }
 
+.disclaimer {
+  display: none;
+}
+
 /* MAIN */
 main {
   display: flex;
